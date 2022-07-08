@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <a>Rent</a>
+        <Link to="/rent">Rent</Link>
       </li>
       <li>
-        <a>Buy</a>
+        <Link to="">Buy</Link>
       </li>
       <li tabindex="0">
-        <a class="justify-between">
-          Parent
+        <Link to="" class="justify-between">
+          Resources
           <svg
             class="fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -21,13 +22,13 @@ const Navbar = () => {
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
-        </a>
+        </Link>
         <ul class="p-2">
           <li>
-            <a>Submenu 1</a>
+            <Link to="">Resource 1</Link>
           </li>
           <li>
-            <a>Submenu 2</a>
+            <Link to="">Resource 2</Link>
           </li>
         </ul>
       </li>
@@ -47,9 +48,9 @@ const Navbar = () => {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
@@ -61,14 +62,23 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Estatery</a>
+          <Link to="" class="btn btn-ghost normal-case text-xl">
+            Estatery
+          </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
         <div class="navbar-end">
-          <a class="btn">Get started</a>
+          <Link to="" class="btn btn-md mr-3 btn-outline">
+            Login
+          </Link>
+          <Link to="" class="btn btn-md ">
+            Signup
+          </Link>
         </div>
+        {/* <div class="navbar-end"> */}
+        {/* </div> */}
       </div>
     </div>
   );
