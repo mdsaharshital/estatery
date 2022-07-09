@@ -4,7 +4,9 @@ import { datum } from "./../../components/data/houseData";
 import { BiBed } from "react-icons/bi";
 import { MdOutlineBathroom } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
+import { BiBuildingHouse } from "react-icons/bi";
 import Footer from "../../components/Footer/Footer";
+import RentFilter from "../../components/RentFilter/RentFilter";
 
 const Rent = () => {
   return (
@@ -12,7 +14,7 @@ const Rent = () => {
       <Navbar />
       {/*  */}
       <div className="container mx-auto my-10">
-        <h1>rent</h1>
+        <RentFilter />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10">
           {datum.map((data) => (
             <>
@@ -29,6 +31,7 @@ const Rent = () => {
                     <span className="text-slate-400">/mo</span>
                   </h1>
                   <h2 class="card-title cursor-pointer font-bold mt-4">
+                    <BiBuildingHouse />
                     {data.name}
                     <div class="badge badge-secondary bg-[#82acf3] outline-none border-0 text-white uppercase">
                       {data.type}
