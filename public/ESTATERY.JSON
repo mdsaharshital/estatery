@@ -1,0 +1,138 @@
+[
+    {
+        "id":1,
+        "type":"house",
+        "min_price": 500,
+        "max_price": 1500,
+        "available":[
+            "9 july",
+            "11 july",
+            "12 july",
+            "13 july",
+            "14 july",
+            "17 july",
+            "17 july",
+            "19 july"
+        ],
+        "location":"New York"
+    },
+    {
+        "id":2,
+        "type":"apartement",
+        "min_price": 500,
+        "max_price": 1500,
+        "available":[
+            "9 july",
+            "10 july",
+            "22 july",
+            "23 july",
+            "24 july",
+            "27 july",
+            "27 july",
+            "29 july"
+        ],
+        "location":"New York"
+    },
+    {
+        "id":3,
+        "type":"house",
+        "min_price": 1000,
+        "max_price": 2500,
+        "available":[
+            "9 july",
+            "11 july",
+            "12 july",
+            "13 july",
+            "14 july",
+            "17 july",
+            "17 july",
+            "19 july"
+        ],
+        "location":"New York"
+    },
+    {
+        "id":4,
+        "type":"apartement",
+        "min_price": 1000,
+        "max_price": 2500,
+        "available":[
+            "9 july",
+            "10 july",
+            "22 july",
+            "23 july",
+            "24 july",
+            "27 july",
+            "27 july",
+            "29 july"
+        ],
+        "location":"New York"
+    },
+    {
+        "id":5,
+        "type":"house",
+        "min_price": 500,
+        "max_price": 1500,
+        "available":[
+            "9 july",
+            "11 july",
+            "12 july",
+            "13 july",
+            "14 july",
+            "17 july",
+            "17 july",
+            "19 july"
+        ],
+        "location":"Chicago"
+    },
+    {
+        "id":6,
+        "type":"apartement",
+        "min_price": 500,
+        "max_price": 1500,
+        "available":[
+            "9 july",
+            "11 july",
+            "12 july",
+            "13 july",
+            "14 july",
+            "17 july",
+            "17 july",
+            "19 july"
+        ],
+        "location":"Chicago"
+    },
+    {
+        "id":7,
+        "type":"house",
+        "min_price": 1000,
+        "max_price": 2500,
+        "available":[
+            "9 july",
+            "10 july",
+            "22 july",
+            "23 july",
+            "24 july",
+            "27 july",
+            "27 july",
+            "29 july"
+        ],
+        "location":"Chicago"
+    },
+    {
+        "id":8,
+        "type":"apartement",
+        "min_price": 1000,
+        "max_price": 2000,
+        "available":[
+            "9 july",
+            "10 july",
+            "22 july",
+            "23 july",
+            "24 july",
+            "27 july",
+            "27 july",
+            "29 july"
+        ],
+        "location":"Chicago"
+    }
+]

@@ -62,7 +62,10 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <Link to="" class="btn btn-ghost normal-case text-xl">
+          <Link
+            to="/"
+            class="btn btn-ghost normal-case text-xl text-[#82acf3] font-bold"
+          >
             Estatery
           </Link>
         </div>
@@ -70,10 +73,13 @@ const Navbar = () => {
           <ul class="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
         <div class="navbar-end">
-          <Link to="" class="btn btn-md mr-3 btn-outline">
+          <Link
+            to=""
+            class="btn btn-md mr-3 border-[#82acf3] btn-outline hover:bg-[#82acf3] hover:border-[#82acf3]"
+          >
             Login
           </Link>
-          <Link to="" class="btn btn-md ">
+          <Link to="" class="btn btn-md bg-[#82acf3] border-none">
             Signup
           </Link>
         </div>
